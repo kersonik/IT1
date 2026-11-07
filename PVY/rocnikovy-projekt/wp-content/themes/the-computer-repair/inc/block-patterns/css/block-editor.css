@@ -1,0 +1,104 @@
+.banner-section h1, .article-outer-box h2, .article-outer-box h3, .banner-section h4, .banner-section p, 
+.article-outer-box p, .banner-section .block-editor-rich-text__editable.wp-block-button__link,
+ .article-outer-box .block-editor-rich-text__editable.wp-block-button__link{ 
+  font-family: 'Fira Sans', sans-serif;
+}
+/*Banner section*/
+.banner-section h4{
+  margin-bottom: 15px !important;
+}
+.banner-section .wp-block-column.is-vertically-aligned-center {
+  left: 1%;
+}
+.banner-section h4.block-editor-rich-text__editable.block-editor-block-list__block.wp-block {
+  border-radius: 30px;
+  width: max-content;
+  padding: 5px 10px;
+  margin-left: 0
+}
+.banner-section h1.block-editor-rich-text__editable.block-editor-block-list__block.wp-block{
+  letter-spacing: 1px;
+  font-size: 35px;
+  line-height: 40px;
+}
+.banner-section p.block-editor-rich-text__editable.block-editor-block-list__block.wp-block{
+  font-size: 15px;
+  text-align: left !important;
+  letter-spacing: 0;
+  margin: 10px 0 20px !important;
+}
+.banner-section .block-editor-rich-text__editable.wp-block-button__link, .article-section .block-editor-rich-text__editable.wp-block-button__link{
+  font-size: 12px;
+}
+.banner-section .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background-color: #151414 !important;
+}
+/*Article section*/
+.article-outer-box h2.block-editor-rich-text__editable.block-editor-block-list__block.wp-block{
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 0 0 10px;
+  padding-left: 17%;
+}
+.article-outer-box h2,
+.article-outer-box p{
+  padding-left: 17%;
+}
+.article-outer-box p{
+  margin: 0;
+}
+.article-outer-box h2.has-text-align-left:after{
+  content: "";
+  border-bottom: solid 3px #23cfca;
+  position: absolute;
+  left: 27%;
+  width: 6%;
+  margin-top: 40px;
+}
+.wp-block-column.article-section {
+  background: #fff;
+  border: solid 4px #e4e3ed;
+}
+.article-section:hover {
+  border: solid 4px #23cfca;
+}
+.article-section:hover .block-editor-rich-text__editable.wp-block-button__link {
+  background: #23cfca !important;
+  color: #fff !important;
+}
+.article-outer-box .wp-block-column.article-section img {
+  position: relative;
+  margin-top: -4em;
+}
+.article-outer-box h3.has-text-align-center.has-text-color {
+  margin: 10px 0 30px !important;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.article-section .wp-block-button {
+  position: absolute;
+}
+.article-section .block-editor-rich-text__editable.wp-block-button__link{
+  color: #b3b3c0 !important;
+}
+.article-container{
+  margin-top: 8%;
+}
+@media screen and (max-width:767px) {
+  .wp-block-columns.alignfull.are-vertically-aligned-center{
+    flex-basis: 100%!important;
+    margin: 0;
+  }
+  .banner-section .wp-block-column.is-vertically-aligned-center{
+    position: static;
+  }
+}
+@media screen and (max-width:1000px) {
+  .banner-section h1 {
+    font-size: 30px !important;
+  }
+  .article-container h3 {
+    font-size: 13px !important;
+  }
+}

@@ -1,0 +1,25 @@
+# WordPress logs, caches, and backups
+**/wp-content/cache/
+**/wp-content/wpo-cache/
+**/wp-content/wflogs/
+**/wp-content/updraft/
+**/wp-content/upgrade/
+**/wp-content/upgrade-temp-backup/
+**/stats/
+*.log
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sensitive configs
+.env
+.env.*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
