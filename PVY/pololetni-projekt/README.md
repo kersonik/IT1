@@ -1,93 +1,60 @@
-# 💻 Computer Science Foundations — Educational Web Portal
+# Pololetní projekt — Základy informatiky
 
-> A comprehensive, semantically structured educational web portal presenting fundamental pillars of computer science: hardware architecture, software paradigms, network engineering, computing history, artificial intelligence, and supercomputing.
+Webový výukový portál shrnující vybrané tematické okruhy informatiky: architekturu počítačů, historii výpočetní techniky, hardware, software a kyberbezpečnost, počítačové sítě, umělou inteligenci a superpočítače.
 
-[![Standards](https://img.shields.io/badge/Standards-HTML5%20%7C%20CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![Project](https://img.shields.io/badge/Project-Semester%20Assignment-blue?style=for-the-badge)](https://github.com/kersonik/pololetni-projekt)
-[![Language](https://img.shields.io/badge/Content-Czech%20(cs--CZ)-critical?style=for-the-badge)](index.html)
-[![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](LICENSE)
+Projekt vznikl jako pololetní práce v rámci studia na SŠPU Opava s důrazem na sémantické HTML5, čistou navigaci a přehledné zpracování témat.
 
----
+## Přehled stránek a témat
 
-## 📖 Overview
-
-This static web project serves as an interactive study portal for computer science students. Built with pure semantic HTML5 and modern modular CSS, it features a unified dark navigation shell, responsive layout, illustrative media (diagrams, photos, and animated GIFs), and structured definitions referenced to academic and historical sources.
-
----
-
-## 📚 Curriculum Topics & Module Breakdown
-
-| Page / Module | Topic | Core Contents & Concepts |
+| Soubor | Téma | Obsah |
 | :--- | :--- | :--- |
-| **[`index.html`](index.html)** | **Úvod & Architektura** | Portal homepage, conceptual definition of computer programs, relationship between algorithms and data structures. |
-| **[`historie.html`](historie.html)** | **Historie počítačů** | Evolution across five computing generations: vacuum tubes, discrete transistors, integrated circuits, microprocessors, and modern parallel architectures. |
-| **[`hardware.html`](hardware.html)** | **Počítačový hardware** | In-depth breakdown of physical components: Central Processing Units (CPU), Graphics Processing Units (GPU), volatile memory (RAM), storage technologies (NVMe SSD / HDD), and motherboard bus interconnects. |
-| **[`software.html`](software.html)** | **Software & Bezpečnost** | System software (OS, kernels) vs. application software, malware taxonomy (viruses, trojans, ransomware, spyware), and defensive cybersecurity practices. |
-| **[`site.html`](site.html)** | **Počítačové sítě** | Network reference models (OSI 7-layer vs. TCP/IP 4-layer), switching mechanisms (circuit vs. packet switching), network topologies, client-server vs. P2P architectures, and geographic scopes (PAN, LAN, MAN, WAN). |
-| **[`ai.html`](ai.html)** | **Umělá inteligence** | Foundations of AI, Machine Learning (ML), Deep Learning neural networks, Natural Language Processing (NLP), ethical dilemmas (bias, black-box decisions, hallucinations), and legislative frameworks such as the EU AI Act. |
-| **[`super.html`](super.html)** | **Superpočítače** | High-Performance Computing (HPC), parallel computing architectures (Flynn's taxonomy: SIMD, MIMD, SMP, NUMA, GPGPU), distributed computing initiatives (BOINC, Folding@home, SETI@home), and iconic machines (Deep Blue, GRAPE). |
+| `index.html` | Úvod | Rozcestník portálu, pojem algoritmus a datové struktury |
+| `historie.html` | Historie počítačů | Pět generací počítačů (elektronky, tranzistory, integrované obvody, mikroprocesory, paralelní architektury) |
+| `hardware.html` | Hardware | Přehled komponent: CPU, GPU, RAM, paměťová média (SSD / HDD), sběrnice a základní deska |
+| `software.html` | Software a bezpečnost | Rozdělení softwaru (systémový vs. aplikační), typy malwaru a bezpečnostní zásady |
+| `site.html` | Počítačové sítě | Modely OSI a TCP/IP, přepojování paketů a okruhů, topologie, klient-server a P2P |
+| `ai.html` | Umělá inteligence | Strojové učení, hluboké neuronové sítě, NLP a legislativa (EU AI Act) |
+| `super.html` | Superpočítače | Principy HPC, Flynn taxonomy, distribuované výpočty (BOINC) a známé systémy |
 
----
+## Vlastnosti a technologie
 
-## 🎨 Design & Technical Features
+- Sémantické značkování HTML5 (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`)
+- Jednotná navigační lišta napříč všemi stránkami
+- Vlastní stylování v CSS a doprovodná grafika v `img/` a `gif/`
+- Čistě statický web bez externích závislostí a buildovacího procesu
 
-- **Semantic HTML5**: Native use of `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, and `<footer>` containers.
-- **Unified Navigation Header**: Consistent, accessible navbar across all sub-pages allowing effortless browsing between topics.
-- **Rich Media Integration**: Includes diagrams, schematics, and animations within `img/` and `gif/` directories.
-- **Zero Build Tools Required**: Pure client-side static files — runs immediately in any browser with zero installation overhead.
+## Struktura projektu
 
----
-
-## 📁 Repository Structure
-
-```
+```text
 pololetni-projekt/
-├── index.html        # Portal landing page
-├── historie.html     # History and generations of computing
-├── hardware.html     # Physical hardware components guide
-├── software.html     # Software classification & cybersecurity
-├── site.html         # Network engineering & protocols
-├── ai.html           # Artificial intelligence & machine learning
-├── super.html        # Supercomputers & distributed systems
-├── css/              # Stylesheets and visual themes
-├── img/              # Illustrative photographs and diagrams
-├── gif/              # Animated demonstrations and hardware visuals
-└── README.md         # Project documentation and summary
+├── index.html        # Úvodní stránka
+├── historie.html     # Historie výpočetní techniky
+├── hardware.html     # Hardwarové komponenty
+├── software.html     # Software a kyberbezpečnost
+├── site.html         # Počítačové sítě a protokoly
+├── ai.html           # Umělá inteligence a strojové učení
+├── super.html        # Superpočítače a distribuované výpočty
+├── css/              # Kaskádové styly
+├── img/              # Schémata a fotografie
+├── gif/              # Animace a ukázky
+└── README.md         # Dokumentace
 ```
 
----
+## Spuštění a náhled
 
-## 🚀 How to Run & Preview
+Web lze otevřít přímo v prohlížeči:
 
-Because this is a pure static web application, no compilation or runtime environment is needed.
+- **Linux:** `xdg-open index.html`
+- **macOS:** `open index.html`
+- **Windows:** poklepáním na `index.html` nebo příkazem `Start-Process index.html` v PowerShellu
 
-### Quick Browser Launch
-
-- **Linux**:
-  ```bash
-  xdg-open index.html
-  ```
-- **macOS**:
-  ```bash
-  open index.html
-  ```
-- **Windows**:
-  Double-click `index.html` or execute in PowerShell:
-  ```powershell
-  Start-Process index.html
-  ```
-
-### Local HTTP Server (Optional)
-If you prefer running via a local web server:
+Lokální spuštění přes HTTP server:
 
 ```bash
-# Using Python 3 built-in HTTP server:
 python3 -m http.server 8080
 ```
-Then navigate to `http://localhost:8080` in your web browser.
+Poté otevřete adresu `http://localhost:8080`.
 
----
+## Licence
 
-## 📄 License
-
-Created as a high school semester project at SŠPU Opava. Released under the MIT License.
+Školní projekt vytvořený na SŠPU Opava.
